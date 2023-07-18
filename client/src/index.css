@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  overflow-y: auto !important;
+}
+
+.app {
+  margin: auto;
+}
+
+/* MOBILE MENU */
+.menuItem {
+  font-family: 'Poppins';
+  font-size: 18px;
+  border-bottom: solid 1px rgba(69, 48, 41, 0.1);
+  list-style-type: none;
+  display: block;
+  position: relative;
+  left: 0;
+}
+
+.menuItem:hover .menuItemLink {
+  color: #897c78;
+}
+
+.menuItemLink {
+  padding: 15px 30px 15px 30px;
+  text-decoration: none;
+  width: 100%;
+  color: #453029;
+  font-weight: 300;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menuLinkWrap {
+  display: table;
+  width: 100%;
+}
+
+/* FOOTER */
+.footerItemLink {
+  padding-top: 10px;
+  text-decoration: none;
+  width: 100%;
+  color: #453029;
+  font-weight: 300;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Poppins';
+  font-size: 13px;
+}
+
+/* SCROLL BAR */
+ /* width */
+ ::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* FORMIK Validation Error */
+.error-message {
+  font-family: 'Poppins';
+}
